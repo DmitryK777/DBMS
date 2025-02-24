@@ -13,6 +13,7 @@ DECLARE @discipline_W			AS		SMALLINT	=	(SELECT discipline_id		FROM Disciplines	W
 DECLARE @number_of_lessons_C	AS		TINYINT		=	(SELECT number_of_lessons	FROM Disciplines	WHERE discipline_id		=	@discipline_C);
 DECLARE @number_of_lessons_H_PC	AS		TINYINT		=	(SELECT number_of_lessons	FROM Disciplines	WHERE discipline_id		=	@discipline_H_PC);
 DECLARE @number_of_lessons_W	AS		TINYINT		=	(SELECT number_of_lessons	FROM Disciplines	WHERE discipline_id		=	@discipline_W);
+DECLARE @number_of_lessons		AS		TINYINT = @number_of_lessons_C + @number_of_lessons_H_PC + @number_of_lessons_W;
 
 DECLARE @teacher				AS		SMALLINT	=	(SELECT teacher_id			FROM Teachers		WHERE first_name		=	N'Юыху');
 DECLARE @start_date				AS		DATE		=	N'2023-09-17';
@@ -20,14 +21,18 @@ DECLARE @date					AS		DATE		=	@start_date;
 DECLARE @time					AS		TIME(0)		=	N'12:00';
 
 PRINT(@group);
-PRINT(@discipline);
-PRINT(@number_of_lessons);
+--PRINT(@discipline);
+--PRINT(@number_of_lessons);
 PRINT(@teacher);
 PRINT(@start_date);
 PRINT(@time);
 PRINT('============================================================================');
 
 DECLARE @lesson_number		AS		TINYINT		=	0;
+DECLARE @lesson_number_C	AS		TINYINT		=	0;
+DECLARE @lesson_number_H_PC	AS		TINYINT		=	0;
+DECLARE @lesson_number_W	AS		TINYINT		=	0;
+
 WHILE (@lesson_number < @number_of_lessons)
 BEGIN
 	PRINT(@date);
@@ -36,7 +41,7 @@ BEGIN
 	PRINT(@time);
 
 INSERT Schedule
-			([group], discipline, teacher, [date],			[time],		spent)
+			([group], discipline, teacher, [date],	[time],		spent)
 VALUES		(@group,  @discipline, @teacher, @date,	@time,	IIF(@date < GETDATE(), 1, 0));
 	SET @lesson_number = @lesson_number + 1;
 
@@ -46,7 +51,7 @@ VALUES		(@group,  @discipline, @teacher, @date,	@time,	IIF(@date < GETDATE(), 1,
 	PRINT(DATEADD(MINUTE, 95, @time));
 
 INSERT Schedule
-			([group], discipline, teacher, [date], [time], spent)
+			([group], discipline, teacher, [date], [time],						spent)
 VALUES		(@group,  @discipline, @teacher, @date,	DATEADD(MINUTE, 95, @time),	IIF(@date < GETDATE(), 1, 0));
 
 	PRINT(@lesson_number + 1);
@@ -56,7 +61,7 @@ VALUES		(@group,  @discipline, @teacher, @date,	DATEADD(MINUTE, 95, @time),	IIF(
 ------------------------------------------------------------------------------------------
 
 INSERT Schedule
-			([group], discipline, teacher, [date], [time], spent)
+			([group], discipline, teacher, [date], [time],							spent)
 VALUES		(@group,  @discipline, @teacher, @date,	DATEADD(MINUTE, 190, @time),	IIF(@date < GETDATE(), 1, 0));
 	SET @lesson_number = @lesson_number + 1;
 	PRINT('--------------------------------------------------------------------------');
