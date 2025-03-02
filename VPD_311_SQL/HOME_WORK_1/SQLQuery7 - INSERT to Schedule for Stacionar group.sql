@@ -1,4 +1,4 @@
---SQLQuery7 - INSERT to Schedule for Stacionar group
+--SQLQuery8 - INSERT to Schedule for VPD_311
 USE VPD_311_Import;
 GO
 

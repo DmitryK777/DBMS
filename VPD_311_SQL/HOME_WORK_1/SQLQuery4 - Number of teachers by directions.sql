@@ -4,7 +4,7 @@ GO
 
 SELECT
 			[Направление]				=	direction_name,
-			[Количество преподавателей]	=	COUNT(teacher_id)
+			[Количество преподавателей]	=	COUNT(DISTINCT teacher_id)
 FROM		Directions, DisciplinesDirectionsRelation, Disciplines, TeachersDisciplinesRelation, Teachers
 WHERE		direction_id								=	direction
 AND			DisciplinesDirectionsRelation.discipline	=	discipline_id

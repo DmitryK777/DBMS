@@ -10,3 +10,6 @@ FROM		Directions, Groups, Students
 WHERE		direction_id	=	direction
 AND			group_id		=	[group]
 GROUP BY	direction_name
+;
+
+SELECT * FROM Groups;
