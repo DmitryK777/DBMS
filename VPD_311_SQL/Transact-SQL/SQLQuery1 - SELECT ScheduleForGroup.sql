@@ -2,7 +2,7 @@
 USE VPD_311_Import;
 GO
 
-CREATE PROCEDURE sp_SelectScheduleForGroup
+ALTER PROCEDURE sp_SelectScheduleForGroup
 --sp - Sorted Procedure
 	@group_name		AS		NVARCHAR(10)
 AS 
