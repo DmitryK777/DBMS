@@ -3,70 +3,70 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="DESKTOP-OPK2JPU\TEW_SQLEXPRESS:DESKTOP-OPK2JPU\Admin">
-          <Created>2025-02-24T15:13:08.4437729+03:00</Created>
+        <ConnectionNode Name="DESKTOP-OPK2JPU:DESKTOP-OPK2JPU\Admin">
+          <Created>2025-03-15T18:41:53.9753105+03:00</Created>
           <Type>SQL</Type>
-          <Server>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</Server>
+          <Server>DESKTOP-OPK2JPU</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>VPD_311</InitialDB>
+          <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
           <HostNameInServerCertificate />
           <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+          <ApplicationName />
         </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="SQLQuery1 - Number of Groups AND Students by Directions.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - Number of Groups AND Students by Directions.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2 - Number Of Teachers by Disciplines.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - Number Of Teachers by Disciplines.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery3 - Number Of Disciplines for Teachers.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery3 - Number Of Disciplines for Teachers.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery4 - Number of teachers by directions.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery4 - Number of teachers by directions.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery5 - INSERT Students of VPD_311.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery5 - INSERT Students of VPD_311.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery6 - Number of Lessons by Directions.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery6 - Number of Lessons by Directions.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery7 - INSERT to Schedule for Stacionar group.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery7 - INSERT to Schedule for Stacionar group.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery8 - INSERT to Schedule for VPD_311.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery8 - INSERT to Schedule for VPD_311.sql</FullPath>
         </FileNode>

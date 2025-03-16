@@ -3,52 +3,52 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="DESKTOP-OPK2JPU\TEW_SQLEXPRESS:DESKTOP-OPK2JPU\Admin">
-          <Created>2025-02-16T12:44:27.8974507+03:00</Created>
+        <ConnectionNode Name="DESKTOP-OPK2JPU:DESKTOP-OPK2JPU\Admin">
+          <Created>2025-03-15T18:42:33.343865+03:00</Created>
           <Type>SQL</Type>
-          <Server>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</Server>
+          <Server>DESKTOP-OPK2JPU</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>VPD_311_SQL</InitialDB>
+          <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
           <HostNameInServerCertificate />
           <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+          <ApplicationName />
         </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="SQLQuery1 - INSERT Directions.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - INSERT Directions.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery1 - INSERT US.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - INSERT US.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery1 - SELECT FROM Directions.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - SELECT FROM Directions.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2 - SELECT COUNT Students and Groups.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - SELECT COUNT Students and Groups.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2 - SELECT FROM STUDENTS.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU\TEW_SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-OPK2JPU\TEW_SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-OPK2JPU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-OPK2JPU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - SELECT FROM STUDENTS.sql</FullPath>
         </FileNode>
